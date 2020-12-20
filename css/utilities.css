@@ -63,9 +63,7 @@
 .bg-secondary a,
 .btn-secondary a,
 .bg-dark a,
-.btn-dark a,
-.bg-light a,
-.btn-light a {
+.btn-dark a {
   color: var(--white);
 }
 
@@ -94,6 +92,29 @@
   text-align: center;
 }
 
+/*-- Alert --*/
+.alert {
+  background-color: var(--light-color);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.alert i {
+  margin-right: 10px;
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: var(--white);
+}
+
+.alert-error {
+  background-color: var(--error-color);
+  color: var(--white);
+}
+
+/*-- Flex & Grid --*/
 .flex {
   display: flex;
   justify-content: center;
